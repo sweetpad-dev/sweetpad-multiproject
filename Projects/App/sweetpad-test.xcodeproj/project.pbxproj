@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EDA94FB19440C867F9F859 /* SweetpadTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852E5604D5BE62A89A4BA8A4 /* SweetpadTestApp.swift */; };
+		098D0FDB55F2547C087F0330 /* SweetpadTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCBB0969DCA0B63BC04311 /* SweetpadTestTests.swift */; };
+		423DB7D64258AF2F199CDC46 /* TuistAssets+SweetpadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E813776EC4535E94F6E43211 /* TuistAssets+SweetpadTest.swift */; };
+		467FB2A6DC20E1E28E8EA1CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183274ED00C056BB7BD313A6 /* Preview Assets.xcassets */; };
+		726CDDFB22FC572F9B7ADEB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ED6059984F5756920CB34E /* ContentView.swift */; };
+		777D23AB050D6FB12163E403 /* TuistBundle+SweetpadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BF7B78CB5E6AE8E6E20A7C /* TuistBundle+SweetpadTest.swift */; };
+		99477F2BA35474388EEECB49 /* AFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D44CE3CC2B7F1394559C4C74 /* AFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D962CBAD0FFEBEABA2BDA9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064039684BC2BD8DF245AB5F /* Assets.xcassets */; };
+		FAA796A133F3EEAFEF442F7E /* AFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44CE3CC2B7F1394559C4C74 /* AFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AE60BF435ECE3EF8914C187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285F3B2F51CAED685C63D737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86642E260876B7D0294212B;
+			remoteInfo = "sweetpad-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D7E7FBE90176D031D28064E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EC047981A400E10B346A67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				99477F2BA35474388EEECB49 /* AFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		064039684BC2BD8DF245AB5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183274ED00C056BB7BD313A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36782EAD70B6B1A4892A6F16 /* sweetpad_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sweetpad_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0526E8148BBBADFA93F935 /* sweetpad-testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "sweetpad-testTests-Info.plist"; sourceTree = "<group>"; };
+		5DFCBB0969DCA0B63BC04311 /* SweetpadTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetpadTestTests.swift; sourceTree = "<group>"; };
+		852E5604D5BE62A89A4BA8A4 /* SweetpadTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetpadTestApp.swift; sourceTree = "<group>"; };
+		862D79E4EEF5B2C146037AF3 /* sweetpad_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweetpad_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44CE3CC2B7F1394559C4C74 /* AFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7ED6059984F5756920CB34E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E813776EC4535E94F6E43211 /* TuistAssets+SweetpadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+SweetpadTest.swift"; sourceTree = "<group>"; };
+		E8BF7B78CB5E6AE8E6E20A7C /* TuistBundle+SweetpadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+SweetpadTest.swift"; sourceTree = "<group>"; };
+		EFD98E934B5A7E692D7A979E /* sweetpad-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "sweetpad-test-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD4A49E431065DAB10D1CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABFC743044A6C7692F90A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA796A133F3EEAFEF442F7E /* AFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129EE9BB83FDA5F1A47D60BA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED6059984F5756920CB34E /* ContentView.swift */,
+				852E5604D5BE62A89A4BA8A4 /* SweetpadTestApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2A2A9A2F38CDF87180059018 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				4D8D385DDDABF11E7CAD4E5B /* InfoPlists */,
+				6FF49C54999C2D4D7EA38DE5 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		3C02A348C5F0400EC454F66E = {
+			isa = PBXGroup;
+			children = (
+				4683B7495BB493CEF960F456 /* Project */,
+				EF382F560346520495924E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4683B7495BB493CEF960F456 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				2A2A9A2F38CDF87180059018 /* Derived */,
+				7719138B8D9A0D128F4EE59D /* Resources */,
+				129EE9BB83FDA5F1A47D60BA /* Sources */,
+				C037B614BC793BA5A2635A7C /* Tests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		4D8D385DDDABF11E7CAD4E5B /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				EFD98E934B5A7E692D7A979E /* sweetpad-test-Info.plist */,
+				4F0526E8148BBBADFA93F935 /* sweetpad-testTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		6FF49C54999C2D4D7EA38DE5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E813776EC4535E94F6E43211 /* TuistAssets+SweetpadTest.swift */,
+				E8BF7B78CB5E6AE8E6E20A7C /* TuistBundle+SweetpadTest.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7719138B8D9A0D128F4EE59D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD85A19CF161D142283FA4BC /* Preview Content */,
+				064039684BC2BD8DF245AB5F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C037B614BC793BA5A2635A7C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DFCBB0969DCA0B63BC04311 /* SweetpadTestTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		CD85A19CF161D142283FA4BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				183274ED00C056BB7BD313A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF382F560346520495924E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44CE3CC2B7F1394559C4C74 /* AFramework.framework */,
+				862D79E4EEF5B2C146037AF3 /* sweetpad_test.app */,
+				36782EAD70B6B1A4892A6F16 /* sweetpad_testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EE21E657C1DF8602C4732A /* sweetpad-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB85C3F0D77B6E9F7880ABE7 /* Build configuration list for PBXNativeTarget "sweetpad-testTests" */;
+			buildPhases = (
+				11C6E28EC7093107D78A3FBF /* Sources */,
+				D850EC42C31008B3CC620964 /* Resources */,
+				4D7E7FBE90176D031D28064E /* Embed Frameworks */,
+				ABD4A49E431065DAB10D1CB5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B72BF2370274AF035A8ADE /* PBXTargetDependency */,
+			);
+			name = "sweetpad-testTests";
+			productName = sweetpad_testTests;
+			productReference = 36782EAD70B6B1A4892A6F16 /* sweetpad_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E86642E260876B7D0294212B /* sweetpad-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66F4A9CBE2AA97FCD8E7AF2 /* Build configuration list for PBXNativeTarget "sweetpad-test" */;
+			buildPhases = (
+				18BC8CE4F4DAEE5F2CC8FC3C /* Sources */,
+				7134AC9254FE4AC6AF811774 /* Resources */,
+				E6EC047981A400E10B346A67 /* Embed Frameworks */,
+				E6ABFC743044A6C7692F90A8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sweetpad-test";
+			productName = sweetpad_test;
+			productReference = 862D79E4EEF5B2C146037AF3 /* sweetpad_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285F3B2F51CAED685C63D737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					84EE21E657C1DF8602C4732A = {
+						TestTargetID = E86642E260876B7D0294212B;
+					};
+				};
+			};
+			buildConfigurationList = 7E9BAEDC59137CFC48601BEF /* Build configuration list for PBXProject "sweetpad-test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3C02A348C5F0400EC454F66E;
+			productRefGroup = EF382F560346520495924E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E86642E260876B7D0294212B /* sweetpad-test */,
+				84EE21E657C1DF8602C4732A /* sweetpad-testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7134AC9254FE4AC6AF811774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D962CBAD0FFEBEABA2BDA9F6 /* Assets.xcassets in Resources */,
+				467FB2A6DC20E1E28E8EA1CE /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D850EC42C31008B3CC620964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C6E28EC7093107D78A3FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098D0FDB55F2547C087F0330 /* SweetpadTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BC8CE4F4DAEE5F2CC8FC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423DB7D64258AF2F199CDC46 /* TuistAssets+SweetpadTest.swift in Sources */,
+				777D23AB050D6FB12163E403 /* TuistBundle+SweetpadTest.swift in Sources */,
+				726CDDFB22FC572F9B7ADEB0 /* ContentView.swift in Sources */,
+				02EDA94FB19440C867F9F859 /* SweetpadTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30B72BF2370274AF035A8ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "sweetpad-test";
+			target = E86642E260876B7D0294212B /* sweetpad-test */;
+			targetProxy = 4AE60BF435ECE3EF8914C187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		021E972C96A3A58E151CFF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66D872334B194087A360D699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A5C5BE915314AFF7C708A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/sweetpad-testTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.sweetpad-testTests";
+				PRODUCT_NAME = sweetpad_testTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sweetpad_test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sweetpad_test";
+				TEST_TARGET_NAME = "sweetpad-test";
+			};
+			name = Debug;
+		};
+		C4F718ACD7F5C0A163C1E367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/sweetpad-testTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.sweetpad-testTests";
+				PRODUCT_NAME = sweetpad_testTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sweetpad_test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sweetpad_test";
+				TEST_TARGET_NAME = "sweetpad-test";
+			};
+			name = Release;
+		};
+		DF44FF253CFEF9E369BD29E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/sweetpad-test-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.sweetpad-test";
+				PRODUCT_NAME = sweetpad_test;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8978E534964993123E77C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/sweetpad-test-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.sweetpad-test";
+				PRODUCT_NAME = sweetpad_test;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E9BAEDC59137CFC48601BEF /* Build configuration list for PBXProject "sweetpad-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021E972C96A3A58E151CFF47 /* Debug */,
+				66D872334B194087A360D699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66F4A9CBE2AA97FCD8E7AF2 /* Build configuration list for PBXNativeTarget "sweetpad-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8978E534964993123E77C36 /* Debug */,
+				DF44FF253CFEF9E369BD29E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB85C3F0D77B6E9F7880ABE7 /* Build configuration list for PBXNativeTarget "sweetpad-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A5C5BE915314AFF7C708A1 /* Debug */,
+				C4F718ACD7F5C0A163C1E367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285F3B2F51CAED685C63D737 /* Project object */;
+}
